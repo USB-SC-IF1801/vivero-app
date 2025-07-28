@@ -12,7 +12,7 @@ export default function HomePage() {
         <p className="text-md text-gray-600 mb-8">
           Navega a la sección de <strong>Plantas</strong> para obtener información detallada sobre cada especie o visita <strong>Riego</strong> para ver el estado de riego actual.
         </p>
-        <div className="flex flex-wrap justify-center space-x-4">
+        <div className="flex flex-wrap justify-center gap-4">
           <Link href="/plantas" className="px-8 py-3 text-white font-semibold bg-green-600 rounded-lg shadow-md hover:bg-green-700 transition-colors">
             Ver Plantas
           </Link>
